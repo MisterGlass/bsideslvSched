@@ -1,11 +1,38 @@
+body {
+    
+}
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+.talk {
+    margin-bottom: 30px;
+}
 .speaker {
-    float: left;
-    padding: 15px;
+    display: inline-block;
+    padding-left: 15px;
 }
 .speaker img {
     display: block;
-    height: 100px;
+    height: 75px;
+    max-width: 75px;
+}
+.speaker .name {
+    font-size: 12pt;
 }
 .speaker-container, .talk {
     clear: both;
+}
+.talk .time, .talk .title {
+    font-size: 15pt;
+}
+.talk .description {
+    display: none;
 }
