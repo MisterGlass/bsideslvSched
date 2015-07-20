@@ -1,0 +1,11 @@
+.speaker {
+    float: left;
+    padding: 15px;
+}
+.speaker img {
+    display: block;
+    height: 100px;
+}
+.speaker-container, .talk {
+    clear: both;
+}
