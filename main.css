@@ -9,7 +9,7 @@ body {
 }
 
 h2 {
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .talk {
@@ -21,8 +21,8 @@ h2 {
 }
 .speaker img {
     display: block;
-    height: 75px;
-    max-width: 75px;
+    height: 70px;
+    max-width: 70px;
 }
 .speaker .name {
     font-size: 12pt;
@@ -31,8 +31,15 @@ h2 {
     clear: both;
 }
 .talk .time, .talk .title {
-    font-size: 15pt;
+    font-size: 16pt;
+}
+.talk .title {
+    font-weight: bold;
+    padding-left: 10px;
 }
 .talk .description {
+    /*
     display: none;
+    */
+    font-size: 8pt;
 }
